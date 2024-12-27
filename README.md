@@ -64,19 +64,6 @@ MONGODB_URI=mongodb://localhost:27017/opc_service
 
 ---
 
-## 📂 Estructura del Proyecto
-src/
-app.js: Configuración principal de la aplicación.
-index.js: Punto de entrada del servidor.
-config.js: Configuración de variables de entorno.
-controllers/: Controladores que manejan la lógica de las rutas.
-models/: Modelos de datos.
-routes/: Definición de las rutas de la API.
-middlewares/: Middlewares personalizados.
-libs/: Librerías y utilidades.
-
----
-
 ## Estructura del Proyecto
 ```
 ├── src
