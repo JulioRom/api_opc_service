@@ -26,13 +26,17 @@ Este proyecto es un servicio desarrollado en **Node.js** que conecta datos de un
 1. Clona el repositorio:
    ```bash
    git clone <URL_DEL_REPOSITORIO>
+   ```
 
 2. Accede al directorio del proyecto:
    ```bash
    cd api_opc_service-dev
+   ```
+
 3. Instala las dependencias:
    ```bash
    npm install
+   ```
 
 ---
 
@@ -50,21 +54,24 @@ Ejemplo de archivo `.env`:
 PORT=4000
 OPC_SERVER_URI=opc.tcp://localhost:4840
 MONGODB_URI=mongodb://localhost:27017/opc_service
+```
 
 ---
 
 ## ▶️ Uso
 
-1. Inicia el servicio:  
+1. Inicia el servicio:
    ```bash
    npm start
+   ```
+
 2. Accede a la documentación de la API (Swagger):
-  ```bash
-  http://localhost:4000/doc/
+   [http://localhost:4000/doc/](http://localhost:4000/doc/)
 
 ---
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
+
 ```
 ├── src
 │   ├── controllers
@@ -81,4 +88,6 @@ MONGODB_URI=mongodb://localhost:27017/opc_service
 ---
 
 ## 📝 Licencia
+
 Este proyecto se distribuye bajo la Licencia MIT.
+
